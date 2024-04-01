@@ -1,8 +1,8 @@
 <template>
     <div class="common-layout">
-      <el-container>
+      <el-container >
         <common-aside></common-aside>
-        <el-container>
+        <el-container class="r-container">
           <common-header/>
           <el-main>
             <router-view/>
@@ -25,3 +25,9 @@ export default {
     }
 }
 </script>
+
+<style>
+  .r-container{
+    flex-wrap: wrap;
+  }
+</style>
