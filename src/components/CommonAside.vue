@@ -20,7 +20,7 @@
                               :key="subIndex">
                               <el-icon>
                                    <component class="icons" :is="subItem.icon"></component>
-                              </el-icon>~
+                              </el-icon>
                               <span>{{ subItem.label }}</span>
                          </el-menu-item>
                     </el-menu-item-group>
@@ -37,7 +37,7 @@ export default {
                     {
                          path: '/user',
                          name: 'user',
-                         label: '用户管理',
+                         label: '用户管理', 
                          url: 'UserManager/UserManager',
                          icon: 'user'
                     },
